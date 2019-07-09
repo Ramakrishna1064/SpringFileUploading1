@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 @RestController
 public class FileController {
-	//hello world
+	
     private static final Logger logger = LoggerFactory.getLogger(FileController.class);	
     @Autowired
     private FileStorageService fileStorageService;
