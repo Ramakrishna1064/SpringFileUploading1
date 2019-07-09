@@ -22,9 +22,9 @@ import java.util.stream.Collectors;
 @RestController
 public class FileController {
 
-	//Hello wolrd
-	//gfhhfhfhtfh
     private static final Logger logger = LoggerFactory.getLogger(FileController.class);
+    
+    //nani
 	
     @Autowired
     private FileStorageService fileStorageService;
