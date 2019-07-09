@@ -21,18 +21,7 @@ import java.util.stream.Collectors;
 
 @RestController
 public class FileController {
-
-<<<<<<< HEAD
-=======
-	//Hello wolrd
-	//gfhhfhfhtfh
-	//dsfsfesafewtate
-	//rddtetse
->>>>>>> branch 'master' of https://github.com/Ramakrishna1064/SpringFileUploading1.git
-    private static final Logger logger = LoggerFactory.getLogger(FileController.class);
-    
-    //nani
-	
+    private static final Logger logger = LoggerFactory.getLogger(FileController.class);	
     @Autowired
     private FileStorageService fileStorageService;
     
