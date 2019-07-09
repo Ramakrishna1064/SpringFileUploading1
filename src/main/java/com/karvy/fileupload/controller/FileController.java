@@ -22,13 +22,6 @@ public class FileController {
     
     private static final Logger logger = LoggerFactory.getLogger(FileController.class);	
     @Autowired
-    //xsgf
-    //ttyryr
-<<<<<<< HEAD
-    //gjjj
-=======
-    //yjfjf
->>>>>>> branch 'master' of https://github.com/Ramakrishna1064/SpringFileUploading1.git
     private FileStorageService fileStorageService;
     
     @PostMapping("/uploadFile")
