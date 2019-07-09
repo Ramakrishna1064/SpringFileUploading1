@@ -24,6 +24,7 @@ public class FileController {
     @Autowired
     //xsgf
     //ttyryr
+    
     private FileStorageService fileStorageService;
     
     @PostMapping("/uploadFile")
