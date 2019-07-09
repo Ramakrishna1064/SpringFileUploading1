@@ -13,14 +13,13 @@ import com.karvy.fileupload.payload.UploadFileResponse;
 import com.karvy.fileupload.service.FileStorageService;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
 public class FileController {
+	//hello world
     private static final Logger logger = LoggerFactory.getLogger(FileController.class);	
     @Autowired
     private FileStorageService fileStorageService;
