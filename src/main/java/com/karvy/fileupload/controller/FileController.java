@@ -48,7 +48,10 @@ public class FileController {
                 .collect(Collectors.toList());
     }
     
-    
+    @GetMapping("/sampleName")
+    public String sample() {
+	    return "Hello Ramakrishna";
+    }
     //Hello meena kumari
     @GetMapping("/downloadFile/{fileName:.+}")
     public ResponseEntity<Resource> downloadFile(@PathVariable String fileName, HttpServletRequest request) {
