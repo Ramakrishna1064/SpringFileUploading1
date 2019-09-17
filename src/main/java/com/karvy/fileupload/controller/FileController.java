@@ -52,6 +52,10 @@ public class FileController {
     public String sample() {
 	    return "Hello Ramakrishna how are you";
     }
+	
+	
+	
+	
     //Hello meena kumari
     @GetMapping("/downloadFile/{fileName:.+}")
     public ResponseEntity<Resource> downloadFile(@PathVariable String fileName, HttpServletRequest request) {
