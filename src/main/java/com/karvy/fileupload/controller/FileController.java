@@ -53,10 +53,6 @@ public class FileController {
 	    return "Hello Ramakrishna how are you";
     }
 	
-	
-	
-	
-    //Hello meena kumari
     @GetMapping("/downloadFile/{fileName:.+}")
     public ResponseEntity<Resource> downloadFile(@PathVariable String fileName, HttpServletRequest request) {
         // Load file as Resource
