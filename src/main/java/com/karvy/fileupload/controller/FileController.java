@@ -50,7 +50,7 @@ public class FileController {
     
     @GetMapping("/sampleName")
     public String sample() {
-	    return "Hello Ramakrishna";
+	    return "Hello Ramakrishna how are you";
     }
     //Hello meena kumari
     @GetMapping("/downloadFile/{fileName:.+}")
